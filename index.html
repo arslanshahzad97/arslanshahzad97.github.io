@@ -1,320 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arslan Shahzad | Senior Full Stack Developer</title>
-  <meta name="description" content="Portfolio of Arslan Shahzad - Senior Full Stack Developer specializing in WordPress, Shopify, BigCommerce, NetSuite & custom PHP.">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-    }
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan Shahzad | Senior PHP Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <nav class="nav" id="navbar">
-    <div class="nav-container">
-      <a href="#" class="logo">Arslan Shahzad.</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#contact" class="nav-cta">Let's Talk</a>
-    </div>
-  </nav>
-
-  <section class="hero" id="hero">
-    <div class="hero-canvas" id="hero-canvas"></div>
-    <div class="hero-container">
-      <div class="hero-badge">
-        <span class="pulse"></span>
-        Available for freelance & full-time opportunities
-      </div>
-      
-      <h1 class="hero-title">
-        <span class="line-wrapper"><span class="line">Senior</span></span>
-        <span class="line-wrapper"><span class="line accent">Full Stack</span></span>
-        <span class="line-wrapper"><span class="line">Developer</span></span>
-      </h1>
-      
-      <p class="hero-subtitle">
-        I architect high-performance web applications, e-commerce platforms, and enterprise solutions. 
-        Specializing in WordPress, Shopify, BigCommerce, NetSuite & custom PHP development.
-      </p>
-      
-      <div class="hero-actions">
-        <a href="#work" class="btn btn-primary">View My Work</a>
-        <a href="mailto:arslanshahzad528@gmail.com" class="btn btn-secondary">Get in Touch</a>
-      </div>
-      
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number" data-target="6">0</span>
-          <span class="stat-label">Years Experience</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number" data-target="50">0</span>
-          <span class="stat-label">Websites Managed</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number" data-target="99">0</span>
-          <span class="stat-label">% Uptime Achieved</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="about">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">About Me</span>
-        <h2 class="section-title">Driven by performance, <br>fueled by precision.</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            Results-driven Senior Full Stack Developer with 6+ years of hands-on experience designing, developing, and optimizing high-performance web applications. I have a proven track record of managing 50+ production websites with 99.9% uptime while leading cross-functional teams to deliver scalable solutions.
-          </p>
-          <p>
-            From custom BigCommerce Stencil themes and NetSuite SuiteCommerce extensions to complex WordPress ecosystems and Shopify Liquid customizations, I bridge the gap between elegant design and robust engineering. I thrive on improving site performance—achieving up to 40% faster load times—and integrating third-party APIs that drive business growth.
-          </p>
-        </div>
-        <div class="about-image">
-          <div class="about-monogram">AS</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="skills">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Expertise</span>
-        <h2 class="section-title">A versatile toolkit for <br>modern web challenges.</h2>
-      </div>
-      <div class="bento-grid">
-        <div class="bento-card large">
-          <div class="bento-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-          </div>
-          <h3>E-Commerce Platforms</h3>
-          <p>End-to-end development for enterprise storefronts including BigCommerce (Stencil), Shopify (Liquid), NetSuite SuiteCommerce, and WooCommerce.</p>
-          <ul class="tag-list">
-            <li>BigCommerce</li>
-            <li>Shopify Plus</li>
-            <li>NetSuite</li>
-            <li>WooCommerce</li>
-          </ul>
-        </div>
-        <div class="bento-card">
-          <div class="bento-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          </div>
-          <h3>CMS & Page Builders</h3>
-          <p>WordPress, Elementor, Bricks, Divi, WPBakery, and Duda. Custom themes, plugins, and seamless migrations.</p>
-        </div>
-        <div class="bento-card">
-          <div class="bento-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </div>
-          <h3>Core Technologies</h3>
-          <p>PHP, Laravel, CodeIgniter, Yii, JavaScript (ES6+), MySQL, RESTful APIs, and modern front-end stacks.</p>
-        </div>
-        <div class="bento-card wide">
-          <div class="bento-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          </div>
-          <h3>DevOps & Infrastructure</h3>
-          <p>Git, CI/CD pipelines, Apache & MySQL server management, cPanel, DNS configuration, and deployment automation for staging and production environments.</p>
-        </div>
-        <div class="bento-card">
-          <div class="bento-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <h3>Performance & Security</h3>
-          <p>Caching strategies, image optimization, database indexing, query optimization, and enterprise-grade security hardening.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="experience">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Career Path</span>
-        <h2 class="section-title">Years of building <br>digital excellence.</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Senior Full Stack Developer</h3>
-            <span class="timeline-meta">Savvy Programmers | Lahore, Pakistan | Feb 2026 – Present</span>
-            <ul>
-              <li>Architect custom BigCommerce solutions including Stencil themes, widgets, and BigCommerce Apps.</li>
-              <li>Build and customize NetSuite SuiteCommerce extensions and advanced enterprise theme customization.</li>
-              <li>Lead WordPress projects using Elementor, Bricks, Divi, and WPBakery with full site migrations.</li>
-              <li>Develop and maintain Shopify stores using Liquid templating and custom sections.</li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Arslan<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Senior PHP Full Stack Developer</h3>
-            <span class="timeline-meta">iSoft-Technologies | Lahore, Pakistan | Mar 2025 – Jan 2026</span>
-            <ul>
-              <li>Led development of 20+ web platforms including BigCommerce, Duda, Shopify, and WordPress.</li>
-              <li>Created 10+ custom WordPress themes and plugins extending platform capabilities.</li>
-              <li>Integrated 15+ third-party APIs and payment gateways across multiple platforms.</li>
-              <li>Optimized performance achieving 40% reduction in page load times.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Senior PHP Full Stack Developer & Team Lead</h3>
-            <span class="timeline-meta">ExertLogics | Lahore, Pakistan | Feb 2024 – Mar 2025</span>
-            <ul>
-              <li>Led and mentored a team of 6 developers, improving productivity by 25% through agile practices.</li>
-              <li>Implemented coding standards, testing protocols, and CI/CD pipelines.</li>
-              <li>Delivered 5 high-profile enterprise projects on time and within budget.</li>
-              <li>Optimized application performance resulting in 35% faster response times.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>PHP Full Stack Developer</h3>
-            <span class="timeline-meta">TechSols | Lahore, Pakistan | Feb 2022 – Feb 2024</span>
-            <ul>
-              <li>Managed 50+ production websites with automated backups and disaster recovery.</li>
-              <li>Developed full-stack applications using PHP, MySQL, HTML, CSS, JavaScript, and AJAX.</li>
-              <li>Configured Apache, MySQL servers, and deployment pipelines.</li>
-              <li>Reduced security vulnerabilities by 60% through best practices.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Backend Developer</h3>
-            <span class="timeline-meta">AmbitSols | Gujrat, Pakistan | Nov 2020 – Dec 2021</span>
-            <ul>
-              <li>Developed PHP applications using Laravel and CodeIgniter frameworks.</li>
-              <li>Designed database schemas and MySQL optimization strategies.</li>
-              <li>Built authentication and authorization systems for secure enterprise access.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="work">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">Portfolio</span>
-        <h2 class="section-title">Selected work that <br>defines my craft.</h2>
-      </div>
-      <div class="portfolio-grid">
-        <article class="portfolio-card">
-          <div class="portfolio-card-image" style="background: linear-gradient(135deg, #f0e6d3, #e2d9c8);"></div>
-          <div class="portfolio-card-content">
-            <div class="portfolio-tags">
-              <span class="tag">BigCommerce</span>
-              <span class="tag">NetSuite</span>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <h3>Enterprise E-Commerce Architecture</h3>
-            <p>Custom Stencil themes, SuiteCommerce extensions, and advanced product configuration for high-volume B2B and B2C clients.</p>
-          </div>
-        </article>
-        <article class="portfolio-card">
-          <div class="portfolio-card-image" style="background: linear-gradient(135deg, #dbeafe, #bfdbfe);"></div>
-          <div class="portfolio-card-content">
-            <div class="portfolio-tags">
-              <span class="tag">WordPress</span>
-              <span class="tag">Elementor</span>
-            </div>
-            <h3>High-Traffic WordPress Ecosystem</h3>
-            <p>Managed and optimized 50+ production websites with 99.9% uptime, custom plugins, and full-stack migrations.</p>
-          </div>
-        </article>
-        <article class="portfolio-card">
-          <div class="portfolio-card-image" style="background: linear-gradient(135deg, #dcfce7, #bbf7d0);"></div>
-          <div class="portfolio-card-content">
-            <div class="portfolio-tags">
-              <span class="tag">Shopify</span>
-              <span class="tag">Liquid</span>
-            </div>
-            <h3>Shopify Plus Customization</h3>
-            <p>Liquid templating, custom sections, and theme modifications for diverse business needs and conversion optimization.</p>
-          </div>
-        </article>
-        <article class="portfolio-card">
-          <div class="portfolio-card-image" style="background: linear-gradient(135deg, #f3e8ff, #e9d5ff);"></div>
-          <div class="portfolio-card-content">
-            <div class="portfolio-tags">
-              <span class="tag">PHP</span>
-              <span class="tag">Laravel</span>
-            </div>
-            <h3>Custom SaaS Applications</h3>
-            <p>Robust web applications and help desk systems handling 100+ daily queries, built with Laravel and modern frameworks.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+        </div>
+        <div class="container mobile-nav-links">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="section contact" id="contact">
-    <div class="section-container">
-      <span class="section-tag">Contact</span>
-      <h2 class="section-title contact-title">Let's build something <br><span class="text-gold">extraordinary.</span></h2>
-      <p class="contact-text">
-        I'm currently open to senior full-stack roles, consulting opportunities, and ambitious freelance projects.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:arslanshahzad528@gmail.com" class="contact-link">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          arslanshahzad528@gmail.com
-        </a>
-        <a href="https://linkedin.com/in/arslanshahzad48" target="_blank" rel="noopener noreferrer" class="contact-link">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          LinkedIn
-        </a>
-        <a href="tel:+923014660750" class="contact-link">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          +92 301 4660750
-        </a>
-      </div>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Arslan Shahzad</h1>
+                <h2>Senior PHP Full Stack Developer</h2>
+                <p class="tagline">Specializing in <span class="highlight">Shopify</span>, <span class="highlight">WordPress</span> & Custom PHP Solutions</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">WordPress Sites</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer class="footer">
-    <div class="section-container">
-      <p>© 2026 Arslan Shahzad.</p>
-    </div>
-  </footer>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Results-driven Senior PHP Developer with <strong>5+ years</strong> of experience delivering high-performance e-commerce solutions. I specialize in building custom WordPress themes and plugins, Shopify stores with Liquid templating, and scalable PHP applications.</p>
+                    <p>My portfolio includes high-traffic websites like <strong>iHeartDogs</strong> and <strong>iHeartCats</strong>, major brands like <strong>Taylor Farms</strong> and <strong>Earthbound Farm</strong>, and 30+ custom WordPress solutions built from scratch — no page builders.</p>
+                    <p>I focus on clean code, performance optimization (40% faster load times), and solutions that drive results (15% improved conversion rates).</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Performance</h4>
+                        <p>40% faster load times</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Conversions</h4>
+                        <p>15% improvement</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-server"></i>
+                        <h4>Uptime</h4>
+                        <p>99.9% reliability</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Security</h4>
+                        <p>60% fewer vulnerabilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script type="module" src="script.js"></script>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages & Core</h3>
+                    <div class="skill-tags">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>jQuery</span>
+                        <span>MySQL</span>
+                        <span>Ajax</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Laravel</span>
+                        <span>CodeIgniter</span>
+                        <span>Yii Framework</span>
+                        <span>Statamic</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-shopping-cart"></i> E-commerce</h3>
+                    <div class="skill-tags">
+                        <span>Shopify (Liquid)</span>
+                        <span>WooCommerce</span>
+                        <span>BigCommerce (Stencil)</span>
+                        <span>Payment Gateways</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-wordpress"></i> CMS & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>WordPress</span>
+                        <span>Custom Themes</span>
+                        <span>Custom Plugins</span>
+                        <span>Multisite</span>
+                        <span>Elementor</span>
+                        <span>Duda</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>RESTful APIs</span>
+                        <span>Apache</span>
+                        <span>CI/CD</span>
+                        <span>Performance Optimization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wordpress">WordPress</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Featured Projects -->
+                <div class="project-card featured" data-category="wordpress ecommerce">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://iheartdogs.com&screenshot=true&meta=false&embed=screenshot.url" alt="iHeartDogs">
+                        <div class="project-overlay">
+                            <a href="https://iheartdogs.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">High-Traffic</span>
+                        <h3>iHeartDogs.com</h3>
+                        <p>High-traffic WordPress site with custom theme & performance optimization</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Custom Theme</span>
+                            <span>WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- iHeartCats -->
+                <div class="project-card featured" data-category="wordpress ecommerce">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://iheartcats.com&screenshot=true&meta=false&embed=screenshot.url" alt="iHeartCats">
+                        <div class="project-overlay">
+                            <a href="https://iheartcats.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">High-Traffic</span>
+                        <h3>iHeartCats.com</h3>
+                        <p>Custom theme & performance optimization for pet lovers</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card featured" data-category="wordpress ecommerce">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://taylorfarms.com&screenshot=true&meta=false&embed=screenshot.url" alt="Taylor Farms">
+                        <div class="project-overlay">
+                            <a href="https://www.taylorfarms.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Major Brand</span>
+                        <h3>TaylorFarms.com</h3>
+                        <p>Enterprise-level WordPress solution for major food brand</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Custom Development</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress ecommerce">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://earthboundfarm.com&screenshot=true&meta=false&embed=screenshot.url" alt="Earthbound Farm">
+                        <div class="project-overlay">
+                            <a href="https://www.earthboundfarm.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Major Brand</span>
+                        <h3>EarthboundFarm.com</h3>
+                        <p>Custom WordPress site for organic food brand</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Custom Theme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://velorix.ai&screenshot=true&meta=false&embed=screenshot.url" alt="Velorix AI">
+                        <div class="project-overlay">
+                            <a href="https://velorix.ai" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">AI/Tech</span>
+                        <h3>Velorix.ai</h3>
+                        <p>AI-focused custom WordPress site with modern design</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Custom Theme</span>
+                            <span>AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ecommerce wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://rocketfarms.com&screenshot=true&meta=false&embed=screenshot.url" alt="Rocket Farms">
+                        <div class="project-overlay">
+                            <a href="https://rocketfarms.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">E-commerce</span>
+                        <h3>RocketFarms.com</h3>
+                        <p>E-commerce with custom integrations</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                            <span>Custom Plugins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lafeber -->
+                <div class="project-card" data-category="wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://lafeber.com&screenshot=true&meta=false&embed=screenshot.url" alt="Lafeber">
+                        <div class="project-overlay">
+                            <a href="https://lafeber.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Multisite</span>
+                        <h3>Lafeber.com</h3>
+                        <p>WordPress Multisite implementation</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Multisite</span>
+                            <span>Custom Theme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cannanine -->
+                <div class="project-card" data-category="ecommerce wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://cannanine.com&screenshot=true&meta=false&embed=screenshot.url" alt="Cannanine">
+                        <div class="project-overlay">
+                            <a href="https://cannanine.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">E-commerce</span>
+                        <h3>Cannanine.com</h3>
+                        <p>Custom e-commerce functionality</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brads Plant Based -->
+                <div class="project-card" data-category="ecommerce wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://bradsplantbased.com&screenshot=true&meta=false&embed=screenshot.url" alt="Brads Plant Based">
+                        <div class="project-overlay">
+                            <a href="https://bradsplantbased.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">E-commerce</span>
+                        <h3>BradsPlantBased.com</h3>
+                        <p>Custom e-commerce solution</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kyndred Shop (NEW) -->
+                <div class="project-card" data-category="ecommerce wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://kyndredshop.com&screenshot=true&meta=false&embed=screenshot.url" alt="Kyndred Shop">
+                        <div class="project-overlay">
+                            <a href="https://www.kyndredshop.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">E-commerce</span>
+                        <h3>KyndredShop.com</h3>
+                        <p>Custom e-commerce store with modern design</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                            <span>Custom Theme</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ecommerce wordpress">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://donelanwines.com&screenshot=true&meta=false&embed=screenshot.url" alt="Donelan Wines">
+                        <div class="project-overlay">
+                            <a href="https://www.donelanwines.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">E-commerce</span>
+                        <h3>DonelanWines.com</h3>
+                        <p>Wine e-commerce with age verification</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="wordpress corporate">
+                    <div class="project-image">
+                        <img loading="lazy" src="https://api.microlink.io/?url=https://hopehousecolorado.org&screenshot=true&meta=false&embed=screenshot.url" alt="Hope House Colorado">
+                        <div class="project-overlay">
+                            <a href="https://www.hopehousecolorado.org" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Non-Profit</span>
+                        <h3>HopeHouseColorado.org</h3>
+                        <p>Non-profit website with donation system</p>
+                        <div class="project-tech">
+                            <span>WordPress</span>
+                            <span>Custom Theme</span>
+                            <span>Payment Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- More Projects -->
+            <div class="more-projects">
+                <h3>More Projects</h3>
+                <div class="project-links">
+                    <a href="https://conejosvacation.com/" target="_blank">ConejosVacation.com</a>
+                    <a href="https://www.mindycorporon.com/" target="_blank">MindyCorporon.com</a>
+                    <a href="https://gemineye.com" target="_blank">Gemineye.com</a>
+                    <a href="https://rockpilesolutions.com/" target="_blank">RockpileSolutions.com</a>
+                    <a href="https://cannanine.com" target="_blank">Cannanine.com</a>
+                    <a href="https://chefcloset.com" target="_blank">ChefCloset.com</a>
+                    <a href="https://theherocompany.co" target="_blank">TheHeroCompany.co</a>
+                    <a href="https://loomandlines.com" target="_blank">LoomAndLines.com</a>
+                    <a href="https://www.thefiteam.com" target="_blank">TheFiTeam.com</a>
+                    <a href="https://abundancestrategies.net" target="_blank">AbundanceStrategies.net</a>
+                    <a href="https://givesevendays.org" target="_blank">GiveSevenDays.org</a>
+                    <a href="https://cumbrestoltec.com" target="_blank">CumbresToltec.com</a>
+                    <a href="https://nimble-leader.com" target="_blank">Nimble-Leader.com</a>
+                    <a href="https://hopehousenorthernco.org/" target="_blank">HopeHouseNorthernco.org</a>
+                    <a href="https://workplacehealing.com" target="_blank">WorkplaceHealing.com</a>
+                    <a href="https://recu.org" target="_blank">Recu.org</a>
+                    <a href="https://uclajolt.com" target="_blank">UCLAJolt.com</a>
+                    <a href="https://belmarcolorado.com" target="_blank">BelmarColorado.com</a>
+                    <a href="https://ambr-recyclers.org" target="_blank">AMBR-Recyclers.org</a>
+                    <a href="https://rockpilesolutions.com" target="_blank">RockpileSolutions.com</a>
+                    <a href="https://amatocoffees.com/" target="_blank">AmatoCoffees.com</a>
+                    <a href="https://securityexplorer.com/" target="_blank">SecurityExplorer.com</a>
+                    <a href="https://detoxlosangeles.org/" target="_blank">DetoxLosAngeles.org</a>
+                    <a href="https://liftoffrecovery.com/" target="_blank">LiftOffRecovery.com</a>
+                    <a href="http://losangelescaraccident.org" target="_blank">LosAngelesCarAccident.org</a>
+                    <a href="https://straworldwide.com/" target="_blank">StraWorldWide.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Mar 2025 – Present</span>
+                        <h3>Senior PHP Full Stack Developer</h3>
+                        <h4>iSoft-Technologies | Lahore, Pakistan</h4>
+                        <ul>
+                            <li>Lead development of 20+ web platforms (BigCommerce, Shopify, WordPress)</li>
+                            <li>Developed custom e-commerce solutions using BigCommerce Stencil, Shopify Liquid,  
+                                and Duda templates</li>
+                            <li>Created 20+ custom WordPress themes and plugins. </li>
+                            <li>Integrated 15+ third-party APIs and payment gateways</li>
+                            <li>Improved site performance with 40% faster page load times</li>
+                            <li>Collaborated cross-functionally using Git version control and code reviews</li>
+                        </ul>
+                    </div>
+                </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                      <span class="timeline-date">Feb 2024 – Mar 2025</span>
+                      <h3>Senior PHP Full Stack Developer & Team Lead</h3>
+                      <h4>ExertLogics | Lahore, Pakistan</h4>
+                      <ul>
+                          <li>Led and mentored a team of 6 developers, improving productivity by 25%</li>
+                          <li>Architected robust web applications using PHP, WordPress, and modern frameworks</li>
+                          <li>Implemented coding standards, testing protocols, and CI/CD pipelines</li>
+                          <li>Successfully delivered 5 high-profile projects on time and within budget</li>
+                          <li>Optimized application performance resulting in 35% faster response times</li>
+                          <li>Conducted code reviews and provided technical guidance to team members </li>
+                      </ul>
+                  </div>
+              </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2022 – Feb 2024</span>
+                        <h3>PHP Full Stack Developer</h3>
+                        <h4>TechSols | Lahore, Pakistan</h4>
+                        <ul>
+                            <li>Managed 50+ production websites including backups, recovery, and updates</li>
+                            <li>Developed full-stack applications using PHP, MySQL, HTML, CSS, JavaScript,  
+                                jQuery, and Ajax </li>
+                            <li>Built custom solutions using Laravel, Yii, CodeIgniter, and WordPress</li>
+                            <li>Configured and maintained Apache, MySQL servers and deployment pipelines</li>
+                            <li>Implemented responsive designs ensuring cross-browser compatibility</li>
+                            <li>Reduced security vulnerabilities by 60% through regular updates and patches</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2020 – Dec 2021</span>
+                        <h3>Backend Developer</h3>
+                        <h4>AmbitSols | Gujrat, Pakistan</h4>
+                        <ul>
+                            <li>Developed and maintained PHP applications using Laravel and CodeIgniter</li>
+                            <li>Designed database schemas and implemented MySQL optimization strategies</li>
+                            <li>Built authentication and authorization systems for enterprise applications </li>
+                            <li>Created help desk system handling 100+ daily user queries</li>
+                            <li>Collaborated with clients to analyze requirements and deliver solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2020 – Oct 2020</span>
+                        <h3>Junior PHP Developer</h3>
+                        <h4>JetBrains Sol | Wazirabad, Pakistan</h4>
+                        <ul>
+                            <li>Developed PHP applications with clean, maintainable code</li>
+                            <li>Designed MySQL database structures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's discuss how I can help.</p>
+            <div class="contact-cards">
+                <a href="mailto:arslanshahzad528@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>arslanshahzad528@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/arslanshahzad48" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <p>Connect with me</p>
+                </a>
+                <a href="tel:+923014660750" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p>+92 301 466 0750</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Arslan Shahzad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
